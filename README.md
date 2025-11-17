@@ -182,7 +182,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ## STM 32 CUBE PROGRAM :
 main.c
-
+```
 /* USER CODE BEGIN Header */
 /**
   ****************************************************************************
@@ -600,14 +600,14 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
-
+```
 lcd.h
-
+```
 /*
  * lcd.h
  *
  *  Created on: 10/04/2023
- *      Author: SRIRANJANI.M
+ *      Author: RESHMA.R
  */
 
 #ifndef LCD_H_
@@ -700,9 +700,9 @@ void Lcd_define_char(Lcd_HandleTypeDef * lcd, uint8_t code, uint8_t bitmap[]);
 void Lcd_clear(Lcd_HandleTypeDef * lcd);
 
 #endif /* LCD_H_ */
-
+```
 lcd.c
-
+```
 
 // *  Created on: 10/04/2023
  //
@@ -872,7 +872,7 @@ void lcd_write(Lcd_HandleTypeDef * lcd, uint8_t data, uint8_t len)
 	HAL_GPIO_WritePin(lcd->en_port, lcd->en_pin, 0);
 }
 
-
+```
 
 ## Output screen shots of proteus  :
 
